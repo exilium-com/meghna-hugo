@@ -474,10 +474,12 @@ a:hover {
 }
 
 .hero-area .block h1 {
+  font-family: EB Garamond;
+  font-style: italic;
   font-size: 90px;
   color: #fff;
-  text-transform: capitalize;
-  font-weight: 700;
+  text-transform: none;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 
