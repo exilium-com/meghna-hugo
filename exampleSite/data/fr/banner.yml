@@ -10,3 +10,7 @@ banner:
     enable : true
     label : "Explore Us"
     link : "#services"
+  logo:
+    enable : false
+    image : ""
+    height : 128
