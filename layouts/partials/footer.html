@@ -93,7 +93,7 @@
 	// Add table css - we should be able to do this in Hugo but it isn't possible yet
 	// https://discourse.gohugo.io/t/how-to-customise-tables/15661/21
 	// only applies class to naked table/theads to avoid conflicts with other non-MD tables
-	$("table:not([class])").addClass("table table-dark table-sm thead-dark table-striped table-hover")
-	$("thead:not([class])").addClass("thead-dark")
+	$("table:not([class])").addClass("table table-dark table-sm table-striped table-hover")
+	{{/*  $("thead:not([class])").addClass("thead-light")  */}}
 	});
 </script>
