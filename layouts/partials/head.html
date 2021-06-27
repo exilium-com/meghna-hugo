@@ -38,4 +38,9 @@
 	</script>
 	{{ end }}
 
+	{{ with .Params.AppleAppId }}
+	{{ "<!-- Apple AppStore Smart App Banner -->" | safeHTML }}
+	<meta name="apple-itunes-app" content="app-id={{ . }}">
+	{{ end }}
+
 </head>
